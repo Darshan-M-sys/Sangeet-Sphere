@@ -1,0 +1,264 @@
+
+.product-page{
+  background:linear-gradient(to right,rgb(32, 151, 190),rgb(106, 193, 223)) ;
+  max-height: 1000vh;
+}
+.search-bar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:10px;
+ 
+  padding: 30px;
+}
+.search-bar{
+  display: flex;
+}
+.search-bar {
+  width: 80%;
+  position: relative;
+  max-width: 600px;
+}
+
+.search-bar input {
+  width: 100%;
+  background-color: rgb(235, 224, 209);
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 23px;
+  outline: none;
+}
+.search-bar span{
+  display: flex;
+  position: absolute;
+  right:10px;
+  font-size: 25px;
+  top:6px;
+border-radius: 50%;
+  background-color: rgba(51, 4, 237, 0.221);
+  color: black;
+ font-weight: 900;
+  padding: 7px;
+}
+
+.category-container select {
+    background-color: rgb(235, 224, 209);
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.controls-container{
+background:linear-gradient(to right,rgb(45, 162, 172),rgb(97, 158, 163),rgb(51, 153, 162)) ;
+  position: fixed;
+ width: 100%;
+  bottom: 0;
+  padding-top:1px ;
+  padding-bottom:20px ;
+ 
+}
+.play-tools-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  gap:20px;
+}
+.play-tools-container button{
+  display: flex;
+  align-items: center;
+border: none;
+  color:black;
+}
+.play-tools-container input{
+
+  width:50px;
+
+}
+.play-pause{
+  display: flex;
+  align-items: center;
+  background: rgba(51, 4, 237, 0.221);
+  padding-left:20px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+   border-radius: 50%;
+  font-size: 35px;
+}
+.bg{
+  background: none;
+   font-size: 30px;
+  
+}
+.range{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+
+.range input{
+  width: 100%;
+  max-width: 900px;
+
+  margin-right:  40px;
+}
+.range p{
+  font-size: 20px;
+  margin-right:  40px;
+}
+ .product{
+ display: grid;
+ grid-template-columns: repeat(2 ,1fr);
+ text-align: center;
+ align-items: center;
+ }
+.songs-container{
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  gap:20px;
+  max-width: 700px;
+  margin-left:100px;
+
+}
+.songs-container .heart{
+  display: flex;
+  background: none;
+  border: none;
+  font-size: 30px;
+  justify-content: end;
+}
+
+.songs-container img{
+  width:auto;
+  height: 70px;
+ border-radius: 20px;
+}
+.img-container{
+  position: relative;
+}
+
+
+
+.rate-btn-container{
+  position:relative;
+ 
+  max-width: 100px;
+  
+}
+.rate-btn{
+  position: absolute;
+  top:-100px;
+left:-100px;
+  text-align: center;
+  padding: 10px;
+   background-color: aliceblue;
+   max-height: 100px;
+   overflow-y:scroll ;
+  border-radius: 10px;
+}
+.rate-btn button{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top:5px ;
+ padding-bottom:5px ;
+  width: 100%;
+  background-color: aliceblue;
+}
+.rate-btn button:hover{
+  background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  .search-bar-container{
+    justify-content:space-between;
+  }
+.category-container select {
+  padding: 5px 15px;
+width:50px;
+  font-size: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.search-bar-container input{
+  font-size: 10px;
+}
+.search-bar span{
+  font-size: 10px;
+  top:4px;
+  right:5px;
+
+}
+.product{
+  grid-template-columns: repeat(1,1fr);
+}
+
+.songs-container{
+  margin-left:10px;
+}
+.songs-container img{
+  height: 30px;
+  border-radius:5px ;
+}
+.songs-container h3{
+  font-size: 9px;
+}
+.songs-container p{
+  font-size: 5px;
+  line-height: 1px;
+}
+
+
+marquee{
+  font-size: 10px;
+}
+.range p{
+  font-size: 10px;
+}
+.range input{
+  width:100%;
+   max-width: 200px;
+   height:6px;
+   padding: 0;
+   margin: 0;
+}
+.range{
+  display: flex;
+  padding: none;
+  gap:0;
+}
+.play-tools-container input{
+  height:6px;
+  width:30px;
+}
+.play-tools-container{
+  gap:2px;
+  margin-left: 0;
+}
+.play-tools-container button{
+  font-size: 15px;
+  
+}
+.play-pause{
+  font-size: 20px;
+  padding: 10px;
+}
+.rate-btn button{
+  font-size: 10px;
+
+}
+}
