@@ -2,7 +2,7 @@
   "name": "musicplayer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Darshan-M-sys.github.io/Sangeet-Sphere",
+  "homepage": "https://Darshan-M-sys.github.io/sangeet",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
