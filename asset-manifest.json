@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/sangeet/static/css/main.a81def41.css",
+    "main.js": "/sangeet/static/js/main.1ffbcce9.js",
+    "static/media/song8.webm": "/sangeet/static/media/song8.905f8aa56bae536ddfa6.webm",
+    "static/media/song4.webm": "/sangeet/static/media/song4.3189b9b1c91f6082b9ad.webm",
+    "static/media/song5.webm": "/sangeet/static/media/song5.94707637d626f894d509.webm",
+    "static/media/song9.webm": "/sangeet/static/media/song9.f6aa9b588f5ff4c25338.webm",
+    "static/media/song1.webm": "/sangeet/static/media/song1.bc626fa5d2f42c0b1121.webm",
+    "static/media/song6.webm": "/sangeet/static/media/song6.82ae734a693db5691b03.webm",
+    "static/media/song10.mp3": "/sangeet/static/media/song10.7c358cb1d17234822b47.mp3",
+    "static/media/song2.webm": "/sangeet/static/media/song2.a39990b771454e81d25d.webm",
+    "static/media/song3.webm": "/sangeet/static/media/song3.184b10077afecfe81d9d.webm",
+    "static/media/song7.webm": "/sangeet/static/media/song7.aa434aa0ed8bb6770bc8.webm",
+    "static/media/my-imag.png": "/sangeet/static/media/my-imag.710ea311056e6e094a91.png",
+    "static/media/song3.png": "/sangeet/static/media/song3.537d8e6e80d0f86817f1.png",
+    "static/media/song8.png": "/sangeet/static/media/song8.1d51fb1a581e235c0a31.png",
+    "static/media/song6.png": "/sangeet/static/media/song6.1de31bcb076d53d8b794.png",
+    "static/media/song9.png": "/sangeet/static/media/song9.90703ccc3a54f3f87ad1.png",
+    "static/media/song2.png": "/sangeet/static/media/song2.2c1c01adef056fd6b156.png",
+    "static/media/song1.png": "/sangeet/static/media/song1.6343d959a7dbe2f5a530.png",
+    "static/media/song10.png": "/sangeet/static/media/song10.54d246fd0c92a0709494.png",
+    "static/media/song7.png": "/sangeet/static/media/song7.437f0900cd186c19c54a.png",
+    "static/media/song4.png": "/sangeet/static/media/song4.faa0f9f8dfac33a1a716.png",
+    "static/media/song5.png": "/sangeet/static/media/song5.0b0ff0945e9f9cc5d82d.png",
+    "static/media/icon.jpg": "/sangeet/static/media/icon.260351627a51e3cb4774.jpg",
+    "index.html": "/sangeet/index.html",
+    "main.a81def41.css.map": "/sangeet/static/css/main.a81def41.css.map",
+    "main.1ffbcce9.js.map": "/sangeet/static/js/main.1ffbcce9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a81def41.css",
+    "static/js/main.1ffbcce9.js"
+  ]
+}
